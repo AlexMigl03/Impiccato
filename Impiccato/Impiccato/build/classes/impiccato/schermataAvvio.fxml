@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="anchor" stylesheets="@stile.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="impiccato.SchermataAvvioController">
+   <children>
+      <Label alignment="CENTER" layoutX="172.0" layoutY="14.0" prefHeight="48.0" prefWidth="258.0" text="Impiccato " textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="212.0" layoutY="173.0" prefHeight="27.0" prefWidth="176.0" text="Clicca per giocare!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="395.0" layoutY="350.0" prefHeight="27.0" prefWidth="192.0" text="Alessandro Migliaccio 4AIN">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="241.0" layoutY="231.0" mnemonicParsing="false" onAction="#startBtn" prefHeight="41.0" prefWidth="121.0" text="Start">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
