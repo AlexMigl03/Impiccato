@@ -1,0 +1,12 @@
+.lettera {
+	-fx-border-color: transparent transparent black transparent;
+	-fx-border-width: 10px;
+}
+
+.anchor {
+	-fx-background-color: #d3ebfe;
+}
+
+.rest {
+	-fx-background-color: transparent;
+}
